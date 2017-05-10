@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Sprite">
+      <UniqueIdentifier>{f3ec6154-17aa-47c7-9704-a225f6bb2637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Utils">
+      <UniqueIdentifier>{378e4da7-b035-48aa-88e1-f113136382af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Resources">
+      <UniqueIdentifier>{8c00f932-36c1-45a0-8c9e-5007f16fae32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\Render">
+      <UniqueIdentifier>{173e7c66-a363-4d8d-88ea-f8a7cd99f6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hlavičkové soubory\IO">
+      <UniqueIdentifier>{da942367-3138-434a-991e-d393b68777d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Sprite">
+      <UniqueIdentifier>{e0b134c5-33dc-4ffb-b67a-d95940ec614d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Utils">
+      <UniqueIdentifier>{c22f70a4-646a-4a05-88f6-65832f0727ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Resources">
+      <UniqueIdentifier>{d19d92c1-8798-4c23-bbce-49530166984d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\IO">
+      <UniqueIdentifier>{bfd991ff-66ec-4d4b-b23b-1d029bcb5cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zdrojové soubory\Render">
+      <UniqueIdentifier>{21cad980-bbef-41cd-8b39-656c566367ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KirinEngine.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>Zdrojové soubory\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Zdrojové soubory\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>Zdrojové soubory\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSLProgram.cpp">
+      <Filter>Zdrojové soubory\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Zdrojové soubory\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Zdrojové soubory\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing.cpp">
+      <Filter>Zdrojové soubory\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Zdrojové soubory\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="picoPNG.cpp">
+      <Filter>Zdrojové soubory\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Zdrojové soubory\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Zdrojové soubory\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Zdrojové soubory\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp">
+      <Filter>Zdrojové soubory\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCache.cpp">
+      <Filter>Zdrojové soubory\Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KirinEngine.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Hlavičkové soubory\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Hlavičkové soubory\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Hlavičkové soubory\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>Hlavičkové soubory\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Hlavičkové soubory\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Hlavičkové soubory\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing.h">
+      <Filter>Hlavičkové soubory\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCache.h">
+      <Filter>Hlavičkové soubory\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Hlavičkové soubory\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Hlavičkové soubory\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSLProgram.h">
+      <Filter>Hlavičkové soubory\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="picoPNG.h">
+      <Filter>Hlavičkové soubory\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Hlavičkové soubory\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>Hlavičkové soubory\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Hlavičkové soubory\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Hlavičkové soubory\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
